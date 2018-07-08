@@ -19,10 +19,17 @@
           "src": "modern/sass/save"
         }
       }
-    },
+		},
     "phone": {
       "toolkit": "modern",
-      "theme": "theme-material",
+			"theme": "theme-material",
+			"packager": "phonegap",
+			"phonegap" : {
+					"config": {
+							"platform": "android",
+							"id": "com.enraizarconmindfulness.Enraizar"
+					}
+			},
       "sass": {
         "generated": {
           "var": "modern/sass/save.scss",
